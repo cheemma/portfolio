@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="qualifications.html">Qualifications</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Qualifications</h1>
+        <ul>
+            <li>Qualification 1</li>
+            <li>Qualification 2</li>
+            <li>Qualification 3</li>
+        </ul>
+        <button><a href="main.html">Back to Home</a></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
