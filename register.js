@@ -21,10 +21,12 @@ const auth = getAuth();
 
 
 // console.log(email, password)
-const register = document.getElementById("btn")
-
+document.addEventListener("DOMContentLoaded", () => {
+const register = document.getElementById("btn");
+console.log(register)
+console.log(document.getElementById("btn"));
 register.addEventListener("click", (e) => {
-    e.preventDefault();
+  e.preventDefault();
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
 
@@ -32,8 +34,9 @@ createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
-    alert("success")
-    // ...
+    alert("Registration success");
+    //redirecting to the  login page
+    window.location.href = "index.html";
   })
   .catch((error) => {
     const errorCode = error.code;
@@ -45,5 +48,5 @@ createUserWithEmailAndPassword(auth, email, password)
 
     // alert(email)
     // console.log(password)
-
- })
+})
+})
