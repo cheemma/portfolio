@@ -5,17 +5,16 @@ body {
 	height: 100%;
 	background-color: none;
     overflow: hidden;
-    background-image: url('bacground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+	background-image: url('bacground.jpg');
 
 .container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #5a5656;
+    background-color: none;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(245, 247, 248, 0.1);
 	margin-top: 100px;
