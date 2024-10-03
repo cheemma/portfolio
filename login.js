@@ -14,7 +14,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 
 document.addEventListener("DOMContentLoaded", () => {
-  const loginButton = document.getElementById("bnt");
+  const loginButton = document.getElementById("btn");
 
   if (loginButton) {
     loginButton.addEventListener("click", (e) => {
